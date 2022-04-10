@@ -13,6 +13,8 @@ con = 0
 counter = 0
 con = 0
 
+# arduino com here             |
+
 arduino = serial.Serial(port='COM7', baudrate=115200, timeout=.1)
 
 
