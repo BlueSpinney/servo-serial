@@ -2,6 +2,8 @@ import serial
 import time
 from tkinter import *
 
+# arduino com here             |
+
 arduino = serial.Serial(port='COM5', baudrate=115200, timeout=.1)
 
 main = Tk()
